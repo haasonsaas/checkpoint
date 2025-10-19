@@ -1,0 +1,39 @@
+# Environment
+.env
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Database
+*.db
+*.db-journal
+
+# Vector store
+chroma_db/
+
+# Data
+data/
+!data/.gitkeep
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Build
+build/
+*.egg-info/
